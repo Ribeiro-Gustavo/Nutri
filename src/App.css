@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f95d;
+  color: #333;
+}
+
+.header {
+  background-color: #027204c6;
+  color: white;
+  padding: 1rem 0;
+  text-align: left;
+
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 3rem;
+}
+
+.header strong {
+  font-size: 1.5rem;
+  padding-right: 24rem;
+  margin-left: 4rem ;;
+}
+
+.nav {
+
+  align-items: center;
+  gap: 1rem;
+  padding-left: 1rem ;
+}
+
+.nav a {
+
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: #ffff;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 50rem; 
+  margin: 1.25rem auto; 
+  padding: 0 1.25rem; 
+}
+
+.artigo {
+  background: white;
+  border-radius: 0.5rem; 
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem; 
+  overflow: hidden;
+  transition: transform 0.2s;
+  border: #2b6136 2px solid;
+}
+
+.artigo strong {
+  background: white;
+  display: block;
+  font-size: 1.2rem;
+  margin: 0.9rem;
+}
+
+.artigo img {
+  background: white;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 18.75rem;
+  object-fit: fill;
+  border-radius: 5px;
+}
+
+.artigo p {
+  background: white;
+  padding: 0 0.9rem 0.9rem;
+  color: #666;
+  padding-top: 0.5rem;
+}
+
+.artigo button {
+  display: block;
+  width: calc(100% - 1.875rem);
+  margin: 0.9rem;
+  padding: 0.6rem 0;
+  background-color: #2b6136;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.artigo button:hover {
+  background-color: #027204c6;
+}
